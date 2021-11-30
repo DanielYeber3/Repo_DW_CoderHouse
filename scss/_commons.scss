@@ -1,0 +1,119 @@
+// Definimos varialbes globales
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+//Colors
+
+// scss-docs-start theme-color-variables
+$bg-color:		rgba(146, 230, 167, 0.788);
+$mainColor: 	#91E6A7;
+$primary:      	#4DEB75;
+$secondary:     #226634;
+$success:       green;
+$info:          blue;
+$warning:       yellow;
+$danger:       	rgb(131, 0, 0);
+$light:         white;
+$dark:          black;
+// scss-docs-end theme-color-variables
+
+$colors:(
+	bg-color: 	$bg-color,
+	mainColor: 	$mainColor,
+	primary: 	$primary,
+	secondary: 	$secondary,
+	success: 	$success,
+	info:		$info,
+	warning: 	$warning,
+	danger: 	$danger,
+	white: 		$light,
+	black: 		$dark);
+
+
+
+
+
+//Colors--Iterations
+
+@each $name-color, $colors-in in $colors
+{
+	.color__background-color--#{$name-color}
+	{
+		background-color: $colors-in;
+	}
+}
+
+
+
+
+//Sizes
+$w-25: 25%;
+$w-50: 50%;
+$w-75: 75%;
+$w-100: 100%;
+
+//Sizes--Iterations
+
+@for $i from 1 through 5
+{
+
+	.text__sizes--#{$i}
+	{
+
+		font-size: 1em *$i;
+
+	}
+
+}
+
+@for $i from 1 through 5
+{
+
+	.p-top-#{$i}
+	{
+
+		padding-top: 1.5em *$i;
+
+	}
+
+}
+
+
+
+
+//Transforms & Animations
+
+.transform__plants--scale:hover
+{
+
+	transform: scale(1.05, 1.05);
+	transition: transform 2s;
+	background-color: $mainColor;
+
+}
+
+.transform--translate:hover
+{
+
+	transform: translateY(-10px);
+	transition: transform 1s;
+
+}
+
+
+
+
+//Mixins
+@mixin p-m($relleno, $margen)
+{
+	padding: $relleno;
+	margin: $margen;
+}
+
+
+

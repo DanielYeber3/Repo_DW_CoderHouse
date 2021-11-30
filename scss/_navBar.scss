@@ -1,0 +1,40 @@
+
+.navBar__background--image
+{
+
+    background-image: url(../img/leaf-list-logo/istockphoto-1327644659-612x612.jpg);
+    @include p-m(10px, 0px);
+    position:fixed;
+    opacity: .9;
+
+}
+
+.navBar__background--color
+{
+
+    background-color: $mainColor;
+
+}
+
+.navBar__font--color
+{
+
+    color: $light;
+
+}
+
+.navBar__font--size
+{
+
+    font-size: $fs-2;
+
+}
+
+.navBar__hover--color:hover
+{
+
+    
+    background-color: $primary;
+
+}
+

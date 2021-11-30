@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+.color__background-color--bg-color {
+  background-color: rgba(146, 230, 167, 0.788); }
+
+.color__background-color--mainColor {
+  background-color: #91E6A7; }
+
+.color__background-color--primary {
+  background-color: #4DEB75; }
+
+.color__background-color--secondary {
+  background-color: #226634; }
+
+.color__background-color--success {
+  background-color: green; }
+
+.color__background-color--info {
+  background-color: blue; }
+
+.color__background-color--warning {
+  background-color: yellow; }
+
+.color__background-color--danger {
+  background-color: #830000; }
+
+.color__background-color--white {
+  background-color: white; }
+
+.color__background-color--black {
+  background-color: black; }
+
+.text__sizes--1 {
+  font-size: 1em; }
+
+.text__sizes--2 {
+  font-size: 2em; }
+
+.text__sizes--3 {
+  font-size: 3em; }
+
+.text__sizes--4 {
+  font-size: 4em; }
+
+.text__sizes--5 {
+  font-size: 5em; }
+
+.p-top-1 {
+  padding-top: 1.5em; }
+
+.p-top-2 {
+  padding-top: 3em; }
+
+.p-top-3 {
+  padding-top: 4.5em; }
+
+.p-top-4 {
+  padding-top: 6em; }
+
+.p-top-5 {
+  padding-top: 7.5em; }
+
+.transform__plants--scale:hover {
+  transform: scale(1.05, 1.05);
+  transition: transform 2s;
+  background-color: #91E6A7; }
+
+.transform--translate:hover {
+  transform: translateY(-10px);
+  transition: transform 1s; }
+
+main {
+  padding: 50px;
+  margin: 0px; }
+
+.main__font--color {
+  color: white; }
+
+.h1__modifier--align-center {
+  text-align: center; }
+
+.footer__background--color {
+  background-color: #91E6A7; }
+
+.footer__font--size {
+  font-size: 3rem; }
+
+.footer__text--align {
+  text-align: center; }
+
+.navBar__background--image {
+  background-image: url(../img/leaf-list-logo/istockphoto-1327644659-612x612.jpg);
+  padding: 10px;
+  margin: 0px;
+  position: fixed;
+  opacity: .9; }
+
+.navBar__background--color {
+  background-color: #91E6A7; }
+
+.navBar__font--color {
+  color: white; }
+
+.navBar__font--size {
+  font-size: 2rem; }
+
+.navBar__hover--color:hover {
+  background-color: #4DEB75; }

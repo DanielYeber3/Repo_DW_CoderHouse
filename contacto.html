@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <!-- Bootstrap CSS -->
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Contacto</title>
+    <meta name="robots" content="noindex"/>
+
+    <meta name="description" content= "Esta es la pagina de contactos, nos podes contactar por precio por mayorista, tanto como para alguna queja o reclamo que tengas, estamos a tu disposicion!"/>
+
+    <meta name="keywords" content="Vivero, Plantas, Plantas de Interior, Plantas de Exterior, Plantas baratas, Plantas en ofertas, Vivero Lomas de Zamora, Vivero Palermo, Vivero Recoleta, Vivero Ciudadela, Quejas, Libro de quejas, Precio por mayor, Contacto Vivero, Pedir ayuda, Ayuda vivero "/>
+
+    <meta name="author" content="Daniel Yeber" />
+
+    <meta name="copyright" content="Deko House 2021."/> 
+
+
+</head>
+
+<body>
+
+    
+<!-- Empieza botonera -->
+
+
+<nav class="navBar__background--image navBar__font--color navBar__font--size navBar__hover--color  navbar navbar-expand-lg navbar-light bg-light navbar fixed-top  ">
+    <div class="container-fluid">
+      <a class="navbar-brand navBar__background--color text-reset" href="#">Deko House</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item transform--translate navBar__hover--color navBar__background--color">
+            <a class="nav-link active text-reset" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown transform--translate navBar__hover--color navBar__background--color" >
+            <a class="nav-link dropdown-toggle text-reset" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="productos.html">Plantas de Interior</a></li>
+              <li><a class="dropdown-item" href="productos.html">Plantas de Exterior</a></li>
+            <!--  <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+            </ul>
+          </li>
+          <li class="nav-item transform--translate navBar__hover--color navBar__background--color">
+            <a class="nav-link text-reset" href="contacto.html">Contacto</a>
+          </li>
+
+          <li class="nav-item transform--translate navBar__hover--color navBar__background--color">
+            <a class="nav-link text-reset " href="ofertas.html">Ofertas</a>
+          </li>
+
+          <li class="nav-item transform--translate navBar__hover--color navBar__background--color">
+            <a class="nav-link text-reset " href="politicaDevolucion.html">Politica  Devolucion</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success fs-1 text-reset" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Termina botonera -->
+
+
+
+
+  
+
+    
+<main class="color__background-color--bg-color main__font--color  mt-5">
+
+    <section class="color__background-color--mainColor">
+
+        <h3>Contacto</h3>
+        
+    </section>
+
+
+
+  
+
+        <form action="archivo.php" method="post" id="contacto" class="color__background-color--mainColor">
+
+            <article id="contactoForm">
+
+            <fieldset> 
+            
+                <legend>Informacion personal</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" >
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido">
+                <br>
+                <label for="telefono">Telefono</label>
+                <input type="telefono" id="telefono" placeholder="solo números">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="ejemplo@ejemplo.com">
+                <br>
+                <label for="">Sexo:</label>
+                <br>
+                <label for="">Femenino</label>
+                <input type="radio" name="sexo" id="femenino" placeholder="sex">
+                <br>
+                <label for="">Masculino</label>
+                <input type="radio" name="sexo" placeholder="sex" id="masculino"> <br>
+                <label for="ubicacion">¿Desde que sucursal nos contactas?</label>
+                <select name="to" id="ubicacion">
+                    <option value="cero"></option>
+                    <option value="ldz">Lomas De Zamora</option>
+                    <option value="ciu">Ciudadela</option>
+                    <option value="pal">Palermo</option>
+                    <option value="rec">Recoleta</option> 
+                </select><br>
+                                
+                <form action="archivo.php" method="post">
+                    <label for="mensajeFeedback">Dejanos tu mensaje!</label><br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje..."></textarea>></textarea><br>
+                </form>
+
+            <fieldset>
+            
+                <legend>¿Desea recibir noticias de nuevas ofertas?</legend>
+                <label for="">Si</label>
+                <input type="checkbox" value="si" placeholder="a">
+            </fieldset>
+            <br>
+                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar">
+                
+                
+            </fieldset>
+
+        </form>
+
+    
+
+
+
+</main>
+
+<footer class="footer__background--color footer__font--size footer__text--align">
+
+ 
+  <div>
+
+    <a href="https://www.facebook.com" >
+
+        <img src="https://icongr.am/fontawesome/facebook.svg?size=70&color=ffffff" alt="Facebook-logo">
+
+    </a>
+    <a href="https://www.instagram.com" >
+
+        <img src="https://icongr.am/simple/instagram.svg?size=70&color=ffffff&colored=false" alt="Instagram-logo" >
+
+    </a>
+    <a href="https://www.twitter.com" >
+
+        <img src="https://icongr.am/fontawesome/twitter-square.svg?size=70&color=ffffff" alt="Twitter-logo">
+
+    
+    </a>
+    
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

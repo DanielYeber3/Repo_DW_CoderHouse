@@ -1,0 +1,39 @@
+Optimizar imgs para web
+https://imagecompressor.com/es/
+
+Photoshop online
+https://www.photopea.com/
+
+Optimizar imágenes
+https://tinypng.com/
+
+Convertir jpg a webp
+https://imagen.online-convert.com/es/convertir-a-webp
+
+CSS object-fit
+https://www.w3schools.com/css/css3_object-fit.asp
+
+Ejemplo mapa del sitio
+https://jorgejaramillo.com/sitemap/
+
+Error 404
+https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/paginas-404-originales-y-creativas-consejos-y-ejemplos/
+
+Metas importantes
+https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/los-meta-tags-mas-importantes-y-su-funcion/
+
+Sitemap generator
+https://www.xml-sitemaps.com/
+
+Google Search Console
+https://search.google.com/search-console/welcome
+
+Google mi negocio
+https://www.google.com/intl/es-419_ar/business/
+
+Google mobile friendly
+https://search.google.com/test/mobile-friendly
+
+w3c
+https://validator.w3.org
+
